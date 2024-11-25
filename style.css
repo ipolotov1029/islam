@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #252525;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer-row{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    margin-top: 50px;
+}
+
+.timer-row-item{
+    text-align: center;
+}
+
+#birthday-message {
+    display: none;
+    font-size: 2.5em;
+    color: #ffcc00;
+    margin-top: 20px;
+    font-weight: bold;
+}
